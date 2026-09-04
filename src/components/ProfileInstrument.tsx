@@ -14,7 +14,7 @@ import { CAREERS } from "@/lib/careers";
  * κέντρο εμφανίζεται το πλήρες όνομα — το διάγραμμα γίνεται υπόμνημα που εξηγείται
  * μόνο του.
  */
-const SAMPLE = [0.86, 0.62, 0.44, 0.7, 0.52, 0.78, 0.58, 0.4, 0.66, 0.48, 0.74, 0.56];
+const SAMPLE = [0.86, 0.68, 0.62, 0.44, 0.7, 0.52, 0.78, 0.58, 0.4, 0.66, 0.48, 0.74, 0.56];
 
 const WIDTH = 460;
 const HEIGHT = 400;
@@ -62,8 +62,8 @@ export function ProfileInstrument({ className }: { className?: string }) {
       className={className}
       role="img"
       aria-label={tr({
-        el: "Διάγραμμα με τις 12 κατευθύνσεις που μπορεί να βγάλει το τεστ",
-        en: "Diagram of the 12 directions the test can produce",
+        el: "Διάγραμμα με τις 13 κατευθύνσεις που μπορεί να βγάλει το τεστ",
+        en: "Diagram of the 13 directions the test can produce",
       })}
       onMouseLeave={() => setHovered(null)}
     >

@@ -15,13 +15,13 @@ export const ui = {
   taglineLead: { el: "Ανακάλυψε την", en: "Discover your" },
   taglineTail: { el: "tech καριέρα σου", en: "tech career" },
   heroLead: {
-    el: "Διάλεξε πόσο βαθιά θέλεις να πας. Χωρίς εγγραφή, χωρίς email. Στο τέλος παίρνεις κατάταξη σε 12 καριέρες, το προφίλ σου και ένα roadmap για να ξεκινήσεις.",
-    en: "Choose how deep you want to go. No signup, no email. You get a ranking across 12 careers, your trait profile and a roadmap to get started.",
+    el: "Διάλεξε πόσο βαθιά θέλεις να πας. Χωρίς εγγραφή, χωρίς email. Στο τέλος παίρνεις κατάταξη σε 13 καριέρες, το προφίλ σου και ένα roadmap για να ξεκινήσεις.",
+    en: "Choose how deep you want to go. No signup, no email. You get a ranking across 13 careers, your trait profile and a roadmap to get started.",
   },
   /** Μία πρόταση που εξηγεί τη δουλειά της σελίδας, πάνω από τη γραμμή του folder. */
   heroJob: {
-    el: "Απαντάς για το πώς σκέφτεσαι και δουλεύεις, και βλέπεις ποιες από τις 12 κατευθύνσεις σου ταιριάζουν — με roadmap για να ξεκινήσεις.",
-    en: "Answer how you think and work, then see which of the 12 directions fit you — with a roadmap to get started.",
+    el: "Απαντάς για το πώς σκέφτεσαι και δουλεύεις, και βλέπεις ποιες από τις 13 κατευθύνσεις σου ταιριάζουν — με roadmap για να ξεκινήσεις.",
+    en: "Answer how you think and work, then see which of the 13 directions fit you — with a roadmap to get started.",
   },
   stepAnswer: { el: "Απαντάς αυθόρμητα", en: "Answer on instinct" },
   stepSee: { el: "Βλέπεις το προφίλ σου", en: "See your profile" },
@@ -39,7 +39,7 @@ export const ui = {
     el: "60 σενάρια από πραγματική δουλειά: τι θα έκανες όταν κάτι σπάει, τι θυσιάζεις, τι αντέχεις. Ξεκαθαρίζει την κατεύθυνση.",
     en: "60 scenarios from real work: what you'd do when things break, what you'd sacrifice, what you can live with. It settles the direction.",
   },
-  seeDirections: { el: "Δες τις 12 κατευθύνσεις", en: "See the 12 directions" },
+  seeDirections: { el: "Δες τις 13 κατευθύνσεις", en: "See the 13 directions" },
   toHome: { el: "Στην αρχική", en: "Back to home" },
   /** Μία γραμμή προδιαγραφών κάτω από κάθε κουμπί, ώστε η διαφορά να είναι σαφής. */
   fullTestSpec: {
@@ -100,7 +100,7 @@ export const ui = {
     en: "Your top match stands clearly apart from the rest.",
   },
   topThree: { el: "Οι 3 κορυφαίες καριέρες σου", en: "Your top 3 careers" },
-  allCareers: { el: "Κατάταξη και στις 12 καριέρες", en: "Ranking across all 12 careers" },
+  allCareers: { el: "Κατάταξη και στις 13 καριέρες", en: "Ranking across all 13 careers" },
   match: { el: "ταίριασμα", en: "match" },
   yourProfile: { el: "Το προφίλ σου", en: "Your profile" },
   profileLead: {

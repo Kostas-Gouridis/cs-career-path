@@ -28,7 +28,7 @@ type Fonts = { regular: PDFFont; bold: PDFFont };
 const T = {
   title: { el: "Το αποτέλεσμά σου", en: "Your result" },
   topMatch: { el: "Καλύτερο ταίριασμα", en: "Best match" },
-  ranking: { el: "Κατάταξη και στις 12 καριέρες", en: "All 12 careers ranked" },
+  ranking: { el: "Κατάταξη και στις 13 καριέρες", en: "All 13 careers ranked" },
   profile: { el: "Το προφίλ σου σε 8 διαστάσεις", en: "Your profile across 8 dimensions" },
   roadmap: { el: "Πρώτα βήματα", en: "First steps" },
   tech: { el: "Τεχνολογίες", en: "Technologies" },

@@ -27,7 +27,7 @@ export const shortSection1: Section = {
         {
           id: "a",
           label: { el: "Να φτιάξω κάτι που φαίνεται", en: "Make something you can see" },
-          c: { frontend: 3, mobile: 2 },
+          c: { frontend: 3, mobile: 2, uiux: 3 },
           t: { creative: 3 },
         },
         {
@@ -70,7 +70,7 @@ export const shortSection1: Section = {
         {
           id: "a",
           label: { el: "Κάτι άσχημο και μπερδεμένο", en: "Something ugly and confusing" },
-          c: { frontend: 3, product: 1 },
+          c: { frontend: 3, product: 1, uiux: 3 },
           t: { creative: 3 },
         },
         {
@@ -110,7 +110,7 @@ export const shortSection1: Section = {
         {
           id: "a",
           label: { el: "Καλλιτέχνης", en: "Artist" },
-          c: { frontend: 3, mobile: 2 },
+          c: { frontend: 3, mobile: 2, uiux: 3 },
           t: { creative: 3 },
         },
         {
@@ -168,7 +168,7 @@ export const shortSection1: Section = {
         {
           id: "d",
           label: { el: "Γραφικά και διεπαφές χρήστη", en: "Graphics and user interfaces" },
-          c: { frontend: 3, mobile: 2 },
+          c: { frontend: 3, mobile: 2, uiux: 3 },
           t: { creative: 3 },
         },
         {
@@ -196,7 +196,7 @@ export const shortSection1: Section = {
         {
           id: "a",
           label: { el: "Ένα σχέδιο για υλοποίηση", en: "A design to build" },
-          c: { frontend: 3, mobile: 2 },
+          c: { frontend: 3, mobile: 2, uiux: 3 },
           t: { creative: 3 },
         },
         {
@@ -233,7 +233,7 @@ export const shortSection1: Section = {
         {
           id: "a",
           label: { el: "Να τη δείχνω σε φίλους", en: "Something I can show friends" },
-          c: { frontend: 3, mobile: 2, product: 1 },
+          c: { frontend: 3, mobile: 2, product: 1, uiux: 2 },
           t: { creative: 2, product: 1 },
         },
         {
@@ -276,7 +276,7 @@ export const shortSection1: Section = {
         {
           id: "c",
           label: { el: "Να κάνω το ίδιο πράγμα ξανά", en: "Doing the same thing again" },
-          c: { ml: 2, frontend: 2, product: 1 },
+          c: { ml: 2, frontend: 2, product: 1, uiux: 2 },
           t: { creative: 2 },
         },
         {
@@ -353,7 +353,7 @@ export const shortSection1: Section = {
         {
           id: "d",
           label: { el: "Όσο πιο μακριά, τόσο καλύτερα", en: "The further away the better" },
-          c: { frontend: 3, product: 2, mobile: 1 },
+          c: { frontend: 3, product: 2, mobile: 1, uiux: 2 },
           t: { creative: 2, product: 1 },
         },
       ],
@@ -369,7 +369,7 @@ export const shortSection1: Section = {
         {
           id: "a",
           label: { el: "«Φτιάχνω πράγματα»", en: "\"I make things\"" },
-          c: { frontend: 3, mobile: 2, embedded: 1 },
+          c: { frontend: 3, mobile: 2, embedded: 1, uiux: 3 },
           t: { creative: 3 },
         },
         {
@@ -417,7 +417,7 @@ export const shortSection2: Section = {
         {
           id: "a",
           label: { el: "Μια εφαρμογή στο κινητό σου", en: "An app on your phone" },
-          c: { mobile: 3, frontend: 1 },
+          c: { mobile: 3, frontend: 1, uiux: 2 },
           t: { creative: 2 },
         },
         {
@@ -454,7 +454,7 @@ export const shortSection2: Section = {
         {
           id: "a",
           label: { el: "Κάτι όμορφο", en: "Something beautiful" },
-          c: { frontend: 3, mobile: 2 },
+          c: { frontend: 3, mobile: 2, uiux: 3 },
           t: { creative: 3 },
         },
         {
@@ -562,7 +562,7 @@ export const shortSection2: Section = {
         {
           id: "a",
           label: { el: "Να φτιάχνω γρήγορα ωραία πράγματα", en: "How to make nice things fast" },
-          c: { frontend: 3, mobile: 2 },
+          c: { frontend: 3, mobile: 2, uiux: 3 },
           t: { creative: 3 },
         },
         {
@@ -633,7 +633,7 @@ export const shortSection2: Section = {
         {
           id: "a",
           label: { el: "Κάθε μέρα κάτι", en: "Something every day" },
-          c: { frontend: 3, qa: 2, mobile: 1 },
+          c: { frontend: 3, qa: 2, mobile: 1, uiux: 2 },
           t: { creative: 2, ops: 1 },
         },
         {
@@ -664,7 +664,7 @@ export const shortSection2: Section = {
         {
           id: "a",
           label: { el: "Πώς σχεδιάστηκε κάτι όμορφο", en: "How something beautiful was designed" },
-          c: { frontend: 3, product: 2 },
+          c: { frontend: 3, product: 2, uiux: 3 },
           t: { creative: 3 },
         },
         {
@@ -725,7 +725,7 @@ export const shortSection2: Section = {
         {
           id: "e",
           label: { el: "Το να δείχνει καλό το τελικό αποτέλεσμα", en: "Making the final thing look good" },
-          c: { frontend: 3, mobile: 2 },
+          c: { frontend: 3, mobile: 2, uiux: 3 },
           t: { creative: 3 },
         },
       ],
@@ -741,7 +741,7 @@ export const shortSection2: Section = {
         {
           id: "a",
           label: { el: "Να φτιάχνω πράγματα", en: "To make things" },
-          c: { frontend: 2, mobile: 3, embedded: 2 },
+          c: { frontend: 2, mobile: 3, embedded: 2, uiux: 3 },
           t: { creative: 3 },
         },
         {

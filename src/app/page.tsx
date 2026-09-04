@@ -159,7 +159,7 @@ export default function HomePage() {
         )}
 
         <section ref={careersRef} className="scroll-mt-16 border-t border-[var(--rule)] py-16">
-          <SheetLabel>{tr({ el: "Οι 12 κατευθύνσεις", en: "The 12 directions" })}</SheetLabel>
+          <SheetLabel>{tr({ el: "Οι 13 κατευθύνσεις", en: "The 13 directions" })}</SheetLabel>
 
           <ul className="mt-7 grid gap-3 sm:grid-cols-2">
             {CAREERS.map((career, index) => (

@@ -8,6 +8,7 @@ import {
   GraduationCap,
   LayoutDashboard,
   type LucideIcon,
+  PenTool,
   Server,
   ShieldCheck,
   Smartphone,
@@ -20,6 +21,7 @@ import { cn } from "@/lib/cn";
 /** Ένα εικονίδιο ανά καριέρα, ενιαίο πάχος γραμμής. Καμία χρήση emoji. */
 const ICONS: Record<CareerId, LucideIcon> = {
   frontend: LayoutDashboard,
+  uiux: PenTool,
   backend: Server,
   mobile: Smartphone,
   dataeng: Database,

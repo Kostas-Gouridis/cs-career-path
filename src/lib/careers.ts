@@ -2,6 +2,7 @@ import type { LS } from "./i18n";
 
 export const CAREER_IDS = [
   "frontend",
+  "uiux",
   "backend",
   "mobile",
   "dataeng",
@@ -78,6 +79,49 @@ export const CAREERS: Career[] = [
     market: {
       el: "Πολλές θέσεις junior, έντονος ανταγωνισμός. Ξεχωρίζεις με portfolio που δείχνει προσβασιμότητα και επιδόσεις, όχι μόνο ωραία χρώματα.",
       en: "Plenty of junior roles, heavy competition. You stand out with a portfolio that shows accessibility and performance, not just nice colours.",
+    },
+  },
+  {
+    id: "uiux",
+    shortName: { el: "UI/UX", en: "UI/UX" },
+    color: "#b03ea4",
+    name: { el: "UI/UX Designer", en: "UI/UX Designer" },
+    tagline: {
+      el: "Αποφασίζεις πώς θα δουλεύει κάτι, πριν γραφτεί ο κώδικας.",
+      en: "You decide how something works, before any code is written.",
+    },
+    description: {
+      el: "Δεν είναι «να το κάνεις όμορφο». Καταλαβαίνεις τι προσπαθεί να κάνει ο χρήστης, σχεδιάζεις τη διαδρομή που τον πάει εκεί με τα λιγότερα εμπόδια, και το δοκιμάζεις με πραγματικούς ανθρώπους πριν κοστίσει χρόνο σε υλοποίηση. Η δουλειά σου κρίνεται στο αν ο κόσμος τα καταφέρνει, όχι στο αν αρέσει σε εσένα.",
+      en: "It is not \"make it pretty\". You work out what the user is trying to do, design the shortest path that gets them there, and test it with real people before it costs engineering time. Your work is judged on whether people succeed, not on whether you like it.",
+    },
+    dayToDay: {
+      el: "Συνεντεύξεις και παρατήρηση χρηστών, wireframes, prototypes σε Figma, συνεννόηση με frontend και product, δοκιμές χρηστικότητας, συντήρηση του design system.",
+      en: "User interviews and observation, wireframes, Figma prototypes, syncing with frontend and product, usability testing, maintaining the design system.",
+    },
+    tech: ["Figma", "Prototyping", "Design systems", "Wireframing", "Usability testing", "WCAG / προσβασιμότητα", "Βασικό HTML/CSS", "Analytics"],
+    courses: [
+      { el: "Αλληλεπίδραση Ανθρώπου-Υπολογιστή (HCI)", en: "Human-Computer Interaction (HCI)" },
+      { el: "Γνωστική Ψυχολογία / Εργονομία", en: "Cognitive Psychology / Ergonomics" },
+      { el: "Προγραμματισμός Ιστού — για να ξέρεις τι κοστίζει αυτό που σχεδιάζεις", en: "Web Technologies — so you know what your designs cost to build" },
+      { el: "Γραφικά Υπολογιστών / Τυπογραφία (προαιρετικά)", en: "Computer Graphics / Typography (optional)" },
+    ],
+    projects: [
+      { el: "Ξανασχεδίασε μια οθόνη που σε εκνευρίζει και δείξε το πριν/μετά με το σκεπτικό σου", en: "Redesign a screen that annoys you and show before/after with your reasoning" },
+      { el: "Δοκιμή χρηστικότητας με 5 άτομα: τι κόλλησε, τι άλλαξες μετά", en: "A usability test with 5 people: what they got stuck on, what you changed" },
+      { el: "Ένα μικρό design system με components, κανόνες και υλοποιημένο demo", en: "A small design system with components, rules and a built demo" },
+    ],
+    certifications: [
+      { el: "Google UX Design Professional Certificate (Coursera) — καλή δομή για ξεκίνημα", en: "Google UX Design Professional Certificate (Coursera) — good structure to start from" },
+      { el: "Nielsen Norman Group UX Certification — ακριβή αλλά η πιο αναγνωρίσιμη", en: "Nielsen Norman Group UX Certification — expensive but the most recognised" },
+      { el: "IAAP WAS / CPACC — προσβασιμότητα, σπάνια και ξεχωρίζει", en: "IAAP WAS / CPACC — accessibility, rare and memorable" },
+    ],
+    certsNote: {
+      el: "Κανείς δεν προσλαμβάνει designer για το πιστοποιητικό. Σε προσλαμβάνουν για 2-3 case studies που εξηγούν τι πρόβλημα έλυσες, τι δοκίμασες και τι δεν δούλεψε.",
+      en: "Nobody hires a designer for the certificate. They hire you for 2-3 case studies explaining the problem, what you tried and what did not work.",
+    },
+    market: {
+      el: "Λιγότερες junior θέσεις από ό,τι στο frontend και συχνά σε agencies ή ως ένας designer μέσα σε ομάδα μηχανικών. Όσοι ξέρουν και λίγο κώδικα ή προσβασιμότητα ξεχωρίζουν αμέσως.",
+      en: "Fewer junior openings than frontend, often at agencies or as the single designer in an engineering team. Knowing some code or accessibility makes you stand out immediately.",
     },
   },
   {
